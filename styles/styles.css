@@ -1,0 +1,338 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* google font styles */
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+/* shared styles */
+.container{
+    max-width: 88%;
+    margin: 0 auto;
+}
+.btn-primary{
+    padding: 12px 16px;
+    background-color:#30B868;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    
+}
+.btn-primary:hover{
+    border: 1px solid #30B868;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+}
+.nav-link li a:hover{
+    color:#30B868;
+}
+
+/* navbar related styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+   
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    
+   
+}
+.nav-link li{
+    list-style: none;
+   
+}
+.nav-link li a{
+     color: black;
+     text-decoration: none;
+}
+#hero{
+    background-image: url('../assets/hero-bg.png');
+    min-height: 60vh;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hero-content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 160px 0px;
+    gap: 24px;
+}
+.hero-content h3{
+    color: rgba(70, 145, 101, 1);
+    background-color: white;
+    padding: 8px 34px;
+    max-width: 234px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 100px;
+}
+.hero-content h1{
+    font-size: 72px;
+    font-weight: 700;
+    color: white;
+
+}
+.green-line{
+    color: #30B868;
+}
+.hero-content p{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+.hero-btn{
+display: flex;
+align-items: center;
+gap: 10px;
+}
+.btn-img:hover{
+    background-color: black;
+    background: black;
+}
+.btn-secondery{
+    padding: 16px;
+    color: white;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-secondery:hover{
+    color: #30B868;
+    border: 2px solid#30B868;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+/* note section related styles */
+.card-container{
+    display: flex;
+    justify-content: space-between;
+}
+.text-note{
+    text-align: center;
+    margin: 44px 0 70px 0;
+}
+.text-note h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+.text-note p{
+    color: rgba(98, 115, 130, 1);
+    font-size: 16px;
+    margin-top: 10px;
+
+}
+.card{
+    box-sizing: border-box;
+    max-width: 332px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 50px 30px;
+}
+.card h4{
+    font-size: 24px;
+    font-weight: 600;
+}
+.card p{
+    font-size: 16px;
+    color: rgba(98, 115, 130, 1);
+}
+.card img{
+    width: 35px;
+    background-color:  rgba(249, 85, 85, 1);
+    border-radius: 100px;
+    padding: 15px;
+}
+/* solution section styles */
+#solution{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    margin-top: 102px;
+}
+.solution-feature{
+    display: flex;
+    gap: 7px;
+}
+.solution-feature p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.solution h3{
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 600;
+}
+.solution h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+.solution p{
+    font-size: 16px;
+    color: rgba(98, 115, 130, 1);
+}
+.textOne{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+.textTow{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 40px;
+}
+.challenge{
+    background: rgba(247, 246, 242, 1);
+    border-radius: 12px;
+    margin-top: 80px;
+}
+.challenge-text{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    text-align: center;
+    padding: 80px 0;
+}
+.challenge-text h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+.challenge-text p{
+    font-size: 16px;
+    color: rgba(98, 115, 130, 1);
+}
+.early{
+    margin-top: 10px;
+}
+footer{
+    background-color: rgba(0, 25, 49, 1);
+    min-height: 18vh;
+    margin-top: 50px;
+}
+.social{
+    color: white;
+}
+.endGame{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0 30px 0;
+}
+footer hr{
+    max-width: 80%;
+    color: rgba(229, 231, 235, 1);
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+footer p{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.social ul{
+    display: flex;
+    gap: 4px;
+    margin-top: 7px;
+    list-style: none;
+
+}
+.social ul i{
+    cursor: pointer;
+    color: white;
+}
+.hide{
+    display: none !important;
+}
+.icon{
+    display: none;
+}
+@media screen and (max-width:576px) {
+    nav{
+        padding: 14px 0px;
+    }
+    .nav-link,  .getBtn{
+        display: none;
+    }
+    .icon{
+        display: block;
+        
+    }
+    .hero-content h3{
+            max-width: 142px;
+            font-size: 13px;
+    }
+    .hero-content h1 {
+    font-size: 39px;
+    }
+    .hero-content p{
+        font-size: 16px;
+    }
+    .card-container{
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    .text-note h2 {
+    font-size: 37px;
+    }
+    .brainImg{
+        max-width: 350px;
+        background-size: cover;
+    }
+    #solution{
+        flex-direction: column;
+    }
+    .solution h2{
+        font-size: 32px;
+    }
+    .tikmark{
+        width: 20px;
+        height: 20px;
+    }
+    .challenge-text h3 {
+    font-size: 23px;
+    }
+   
+}
+/* responsive for tab */
+@media screen and (min-width:577px) and (max-width:927px) {
+    .getBtn{
+        display: none;
+    }
+    .hero-content h1 {
+    font-size: 47px;
+    }
+    .card-container{
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+    .brainImg{
+        display: none;
+    }
+}
