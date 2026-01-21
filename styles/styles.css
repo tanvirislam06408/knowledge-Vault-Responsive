@@ -264,9 +264,6 @@ footer p{
     cursor: pointer;
     color: white;
 }
-.hide{
-    display: none !important;
-}
 .icon{
     display: none;
 }
@@ -274,6 +271,21 @@ footer p{
         width: 20px;
         height: 20px;
     }
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+.animated{
+    animation: appear 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0 30%;
+}
     /* responsive for mobile */
 @media screen and (max-width:576px) {
     nav{
