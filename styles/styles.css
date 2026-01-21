@@ -270,6 +270,11 @@ footer p{
 .icon{
     display: none;
 }
+.tikmark{
+        width: 20px;
+        height: 20px;
+    }
+    /* responsive for mobile */
 @media screen and (max-width:576px) {
     nav{
         padding: 14px 0px;
